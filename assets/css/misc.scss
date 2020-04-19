@@ -1,0 +1,157 @@
+$primary: #9E1F63;
+
+// main panel wrap
+.main-panel-wrap {
+  .article {
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    h2,
+    .title {
+      position: absolute;
+      left: 0em;
+      right: 0em;
+      top: 0em;
+      background: rgba(13, 10, 11, 0.68);
+      font-weight: 500;
+      font-size: 1.25em;
+      color: #FFFFFF;
+      margin: 0;
+      padding: 0.75em;
+      text-overflow: ellipsis;
+    }
+  }
+}
+
+.hide{
+
+  .col-5 {
+     min-width: 100% !important;
+    padding: 100px;
+  }
+
+  .hide-able {
+    display: none;
+  }
+
+  .closebtn {
+    display: inline-block;
+  }
+
+  .col-12.mb-12 {
+    margin-bottom: 0;
+  }
+} 
+
+.closebtn {
+  display: none;
+  border-radius: 1.25em;
+  color: white;
+  margin: 0 0.313em;
+  cursor: pointer;
+  float: right;
+}
+
+
+.publications-login{
+  display: block;
+  color: #fff;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  position: absolute;
+  background: rgba(13, 10, 11, 0.68);
+  left: -100%;
+  -moz-transition: all .1s ease-in;
+  -o-transition: all .1s ease-in;
+  -webkit-transition: all .1s ease-in;
+  transition: all .1s ease-in;
+  bottom: 0;
+  top: 2.813em;
+  width: 100%;
+  cursor: pointer;
+  padding: 1.25em 1.375em;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+
+  .inwrap {
+    width: 100%;
+
+    hr {
+      margin-left: -1.375em;
+      margin-right: -1.375em;
+      border: 0;
+      height: 0.063em;
+      background: #E8EAED;
+      margin-bottom: 3.25em;
+      margin-top: 3.8125em;
+    }
+
+    p {
+      margin-top: 0;
+      font-size: 0.875em;
+    }
+
+    .btn {
+      width: 100%;
+      display: block;
+      background: $primary;
+      border-radius: 1.25em;
+      color: white;
+      text-align: center;
+      text-decoration: none;
+      cursor: pointer;
+      margin: 0.313em 0;
+      border: 0.063em solid $primary;
+      font-size: 0.875em;
+      padding: 0.625em;
+      &:hover {
+        background: #920450;
+      }
+    }
+
+    .input-group {
+      display: flex;
+      margin-bottom: 0.625em;
+      position: relative;
+
+      input {
+        width: 100%;
+        padding: 0.175rem 0.75rem;
+        font-size: 0.795rem;
+        line-height: 1.5;
+        color: #495057;
+        background: #FFFFFF;
+        border: 0.063em solid #BDBDBD;
+        border-radius: 0;
+        padding-right: 0.313em;
+        height: 2.5em;
+        border-right: 0 !important;
+
+      }
+      svg {
+        width: 2em;
+        color: #ddd;
+        background: white;
+        height: 2em;
+        border: 0 !important;
+      }
+
+    }
+  }
+}
+
+.publications{
+  &:hover{
+    .publications-login {
+      left: 0;
+      transition: left .1s linear;
+      cursor: pointer;
+    }
+  }
+}
+
+.mobileView {
+  display: none;
+}

@@ -1,0 +1,156 @@
+/* header */
+.header {
+  background: white;
+  width: 100%;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1071;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  display: inline-block;
+  padding: 0 1.875em;
+  border-bottom: 0.063em solid #d7d7d7;
+}
+
+.header .logo {
+  display: inline-block;
+  text-decoration: none;
+  padding: 0.938em 0 0.625em 0;
+}
+
+.header .menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background-color: white;
+  clear: both;
+  max-height: 0;
+  overflow: hidden;
+  -webkit-transition: max-height 0.5s ease-out;
+  transition: max-height 0.5s ease-out;
+}
+
+.header .menu li {
+  list-style: none;
+  display: inline-block;
+}
+
+.header .menu li a {
+  display: inline-block;
+  padding: 0.625em 2.188em;
+  text-decoration: none;
+  height: 6.25em;
+  line-height: 5em;
+  border-top: 0.125em solid transparent;
+  font-size: 1.125em;
+  font-weight: 500;
+  color: #221f44;
+}
+
+.header .menu li a:hover, .header .menu li a.active {
+  color: #9e1f63;
+  border-top: 0.125em solid #9e1f63;
+}
+
+.header .menu li.bookmark {
+  background: #9e1f63;
+  color: white;
+  width: 4.5em;
+  position: relative;
+  float: right;
+  text-align: center;
+  font-size: 10px;
+  height: 9.5em;
+}
+
+.header .menu li.bookmark img {
+  height: auto;
+}
+
+.header .menu li.bookmark .count {
+  display: block;
+}
+
+.header .menu li.bookmark:after {
+  content: "";
+  border-bottom: 2.3em solid white;
+  border-left: 2.3em solid transparent;
+  border-right: 2.3em solid transparent;
+  position: absolute;
+  bottom: -0.063em;
+  z-index: 10;
+  left: 0;
+}
+
+.header .menu li.search a svg {
+  margin-bottom: -0.5em;
+  margin-right: -1.25em;
+}
+
+.header .menu-icon {
+  cursor: pointer;
+  display: inline-block;
+  float: right;
+  margin-top: 0.75em;
+  padding: 1.75em 1.25em;
+  position: relative;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.header .menu-icon .navicon {
+  background: #333;
+  display: block;
+  height: 0.125em;
+  position: relative;
+  -webkit-transition: background 0.4s ease-out;
+  transition: background 0.4s ease-out;
+  width: 1.125em;
+}
+
+.header .menu-icon .navicon:after, .header .menu-icon .navicon::before {
+  background: #333;
+  content: "";
+  display: block;
+  height: 100%;
+  position: absolute;
+  -webkit-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
+  width: 100%;
+}
+
+.header .menu-icon .navicon:before {
+  top: 0.313em;
+}
+
+.header .menu-icon .navicon:after {
+  top: -0.313em;
+}
+
+.header .menu-btn {
+  display: none;
+}
+
+.header .menu-btn:checked ~ .menu {
+  max-height: 16.875em;
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon {
+  background: transparent;
+}
+
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+  top: 0;
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon:before {
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+/*# sourceMappingURL=nav.css.map */

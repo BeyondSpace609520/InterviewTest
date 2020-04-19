@@ -1,0 +1,279 @@
+/* 118.75em top 105em */
+/* (1440x900) WXGA+ Display */
+/* 48em = 48em */
+@media (min-width: 48em) {
+  .header .menu {
+    clear: none;
+    float: right;
+    max-height: none;
+  }
+}
+
+@media (min-width: 48em) {
+  .header .menu-icon {
+    display: none;
+  }
+}
+
+@media (max-width: 47.875em) {
+  .header .menu-icon {
+    float: left;
+  }
+}
+
+@media (max-width: 47.875em) {
+  .module_content {
+    width: 34.375em;
+    max-width: 100%;
+    padding: 0 0.938em;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 104.9375em) {
+  .main-panel-wrap .article h6,
+  .main-panel-wrap .article .title {
+    font-size: 0.875em;
+  }
+}
+
+@media (max-width: 104.9375em) {
+  .header .menu li a {
+    padding: 0.625em 1.563em;
+  }
+}
+
+@media (max-width: 104.9375em) {
+  .publications-login .inwrap .btn {
+    font-size: 0.75em;
+  }
+}
+
+@media (max-width: 104.9375em) {
+  .publications-login {
+    padding: 0.75em;
+  }
+}
+
+@media (max-width: 104.9375em) {
+  .publications-login .inwrap hr {
+    margin: 1.563em -0.75em;
+  }
+}
+
+@media (max-width: 89.9375em) {
+  .header {
+    padding: 0 1.25em;
+  }
+}
+
+@media (max-width: 89.9375em) {
+  .header .logo {
+    padding: 0.625em 0;
+  }
+}
+
+@media (max-width: 63em) {
+  .header .logo {
+    padding: 0.8em 0;
+  }
+}
+
+@media (max-width: 47.875em) {
+  .header .logo {
+    padding: 0;
+    top: 1.2em;
+    position: absolute;
+    left: 40%;
+  }
+}
+
+@media (max-width: 89.9375em) {
+  .header .logo img {
+    width: 15.6em;
+  }
+}
+
+@media (max-width: 63em) {
+  .header .logo img {
+    width: 10.5em;
+  }
+}
+
+@media (max-width: 47.875em) {
+  .header .logo img {
+    width: 7em !important;
+  }
+}
+
+@media (max-width: 89.9375em) {
+  .header .menu li a {
+    display: inline-block;
+    padding: 0 1.25em;
+    text-decoration: none;
+    height: 7.3em;
+    line-height: 7.3em;
+    border-top: 0.125em solid transparent;
+    font-size: 0.875em;
+    font-weight: 600;
+    color: #221F44;
+  }
+}
+
+@media (max-width: 89.9375em) {
+  .header .menu li.bookmark {
+    height: 8.5em;
+  }
+}
+
+@media (max-width: 89.9375em) {
+  .publications-login .inwrap .input-group input {
+    font-size: 0.75em;
+  }
+}
+
+@media (max-width: 64em) {
+  .half {
+    -ms-flex: 0 0 100%;
+    -webkit-box-flex: 0;
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin: 0.375em 0;
+  }
+}
+
+@media (max-width: 80em) {
+  .row {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 47.875em) {
+  .header .menu {
+    overflow: auto;
+  }
+}
+
+@media (max-width: 47.875em) {
+  .header .menu li {
+    display: block;
+  }
+}
+
+@media (max-width: 47.875em) {
+  .header .menu li.bookmark {
+    display: none;
+  }
+}
+
+@media (max-width: 47.875em) {
+  .header .menu li.search, .header .menu li.lan {
+    display: none;
+  }
+}
+
+@media (max-width: 63em) {
+  .header .menu li a {
+    padding: 0 0.7em;
+    height: 6.3em;
+    line-height: 6.3em;
+  }
+}
+
+@media (max-width: 47.875em) {
+  .header .menu li a {
+    display: block;
+    text-align: center;
+    line-height: normal;
+    height: auto;
+    padding: 0.625em 0;
+  }
+}
+
+@media (max-width: 47.875em) {
+  .col-3,
+  .col-4,
+  .col-5,
+  .col-6,
+  .col-7,
+  .col-8,
+  .col-9,
+  .col-12 {
+    -ms-flex: 0 0 100%;
+    -webkit-box-flex: 0;
+            flex: 0 0 100%;
+    max-width: 100%;
+    margin: 0.375em 0;
+  }
+}
+
+@media (max-width: 47.875em) {
+  .half {
+    margin: 0;
+  }
+}
+
+@media (max-width: 47.875em) {
+  .main-panel-wrap .article h6,
+  .main-panel-wrap .article .title {
+    text-align: center;
+  }
+}
+
+@media (max-width: 47.875em) {
+  .seperator {
+    display: none;
+  }
+}
+
+@media (max-width: 47.875em) {
+  .mobileView {
+    display: block;
+  }
+}
+
+@media (max-width: 47.875em) {
+  #commerce_animation {
+    display: none;
+  }
+}
+
+@media (max-width: 47.875em) {
+  .publications {
+    height: 18.75em !important;
+  }
+}
+
+@media (max-width: 48em) {
+  .header .menu li.search a svg {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 48em) {
+  .header .logo img {
+    width: 10.5em;
+  }
+}
+
+@media (max-width: 47.875em) {
+  .mobile_view_icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 20px;
+  }
+}
+
+.mobile_view_icon a {
+  display: inline-block;
+  padding: 0 0.5em;
+  text-decoration: none;
+  font-size: 0.875em;
+  font-weight: 600;
+  color: #221F44;
+}
+/*# sourceMappingURL=responsive.css.map */

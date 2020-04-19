@@ -1,0 +1,66 @@
+$bp-xsmall: 47.875em; // >= 766px
+$bp-small: 48em; // 768px
+$bp-medium: 64em; // 1024px
+$bp-large: 85.375em; // 1366px
+$bp-xlarge: 120em; // 1920px
+$bp-xxlarge: 160em; // 2560px
+
+
+
+// Media Queries
+$mq-xsmall: "(min-width: #{$bp-xsmall})";
+$mq-small: "(min-width: #{$bp-small})";
+$mq-medium: "(min-width: #{$bp-medium})";
+$mq-large: "(min-width: #{$bp-large})";
+$mq-xlarge: "(min-width: #{$bp-xlarge})";
+$mq-xxlarge: "(min-width: #{$bp-xxlarge})";
+$mq-retina: "(-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi)";
+
+
+@mixin xsm {
+    @media #{$mq-xsmall} {
+        @content;
+    }
+}
+
+@mixin sm {
+    @media #{$mq-small} {
+        @content;
+    }
+}
+
+@mixin medium {
+    @media #{$mq-medium} {
+        @content;
+    }
+}
+
+@mixin large {
+    @media #{$mq-large} {
+        @content;
+    }
+}
+
+@mixin xlarge {
+    @media #{$mq-xlarge} {
+        @content;
+    }
+}
+
+@mixin xxlarge {
+    @media #{$mq-xxlarge} {
+        @content;
+    }
+}
+
+@mixin retina {
+    @media #{$mq-retina} {
+        @content;
+    }
+}
+
+@mixin rwd($screen) {
+    @media (max-width: $screen) {
+        @content;
+    }
+}
